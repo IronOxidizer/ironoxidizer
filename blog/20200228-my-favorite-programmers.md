@@ -1,7 +1,7 @@
-[<-- Blog](README.md)
+[<== Blog](README.md)
 
 # My Favorite Programmers
-Alot of these people have influced and inspired my career, my programming style, and in many ways, my life aswell. This list is in no particular order, and if my opinions change, instead of editing this list, I will likely create a revised list in the future.
+Alot of these people have influced and inspired my career, my programming style, and in some ways, my life aswell. This list is in no particular order, and if my opinions change, instead of editing this list a revised list will be created.
 
 ## Ken Thompson
 As the inventor of the B programming language, Ken Thompson can be regarded as the earliest influence of the C language. Although B is no longer used today, his foresight into its design has very well shaped the syntax and design of most modern day programming languages.
