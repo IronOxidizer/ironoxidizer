@@ -1,7 +1,9 @@
 [<- Blog](README.md)
 
 # My Favorite Programmers
-Alot of these people have influced and inspired my career, my programming style, and in some ways, my life aswell. This list is in no particular order, and if my opinions change, instead of editing this list a revised list will be created.
+2020-02-28
+
+Many of these people have influced and inspired my career, my programming style, and in some ways, my life aswell. This list is in no particular order, and if my opinions change, instead of editing this list a revised list will be created.
 
 ## Ken Thompson
 As the creater of the B programming language, Ken Thompson can be regarded as the earliest influence of the C language. Although B is no longer used today, his foresight into its design has very well shaped the syntax and design of most modern day programming languages. He went on to co-create the C programming language along with his colleague at Bell Labs, Dennis Ritchie.
@@ -27,7 +29,7 @@ Microkernels are notrious for being slow as a result of their excessive IPC call
 Andrew is well known for creating the Minix microkernel which would be the main educational resource for learning and teaching kernel development. Andrew's work has influced many projects such has Linux, Redox, and Xinu.
 
 ## Linus Torvalds
-Linux and Git are some of the most influential pieces of software of all time and they were both created by Linus.
+Linux and Git are some of the most influential pieces of software of all time and, they were both created by Linus.
 
 ## Steve Wozniak
 Although Steve Jobs is famous for directing the success of Apple, Steve was the brain behind the majority of Apple's technology and engineering feats. He continued as Apple's lead engineer until the 1980s.
