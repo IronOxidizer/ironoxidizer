@@ -45,7 +45,7 @@ Jeremy is well known for being the creator of RedoxOS which is an operating syst
 Additionally, Jeremy is a well known contributer to the the Rust programming language and is a prinicipal maintainer and developer of the PopOS distro.
 
 ## Raph Levien
-Raph is the creator of the Xi Tookit which is a highly performant toolkit written in Rust that implements the fastest programming patterns and paradigms. Xi Toolkit is used by Xi Editor, a text editor created by raph that potentially out-performs notepad++.
+Raph is the creator of the Xi Tookit which is a highly performant toolkit written in Rust that implements the fastest programming patterns and paradigms. Xi Toolkit is used by Xi Editor, a text editor created by raph that potentially out-performs notepad++. He's also a lead developer for Google's next-gen OS based on a microkernel; FushiaOS.
 
 ## Graydon Hoare
 Graydon was the lead-creator of the Rust programming language during his time at Mozilla. His ideas paved the way for many of Rusts revolutionary features. He has since moved on to Apple to develop the Swift programming language.
