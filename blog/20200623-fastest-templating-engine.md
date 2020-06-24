@@ -49,7 +49,7 @@ cargo bench
 Benchmark was done 5 times, values are times in nanoseconds to complete each iteration
 
 |            | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Median | Relative |
-|------------|-------|-------|-------|-------|-------|--------|----------|
+|------------|------:|------:|------:|------:|------:|-------:|---------:|
 | askama     | 899   | 1010  | 923   | 1032  | 1008  | 1008   | 1.47     |
 | handlebars | 16652 | 18398 | 17976 | 17997 | 17899 | 17976  | 26.20    |
 | horrorshow | 798   | 888   | 893   | 859   | 892   | 888    | 1.29     |
