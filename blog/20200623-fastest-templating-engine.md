@@ -5,7 +5,7 @@
 
 Preface: I realize most of the following templating engines are templating libraries, but referring to them all as engines makes things less confusing for readers and they both fulfill similar roles anyway.
 
-I've recently been working on [lemmy-lite](https://github.com/IronOxidizer/lemmy-lite) and I've had a few people ask me why I chose to use Maud as the templating engine when there are more popular engines even within the Rust community. I referred them to [this dated benchmark](https://lambda.xyz/blog/maud-is-fast/) from 2016 and realized I should make a quick blog post with updated 2020 performance. Here are the results.
+I've recently been working on [lemmy-lite](https://github.com/IronOxidizer/lemmy-lite) and I've had a few people ask me why I chose to use [Maud](https://maud.lambda.xyz/) as the templating engine when there are more popular engines even within the Rust community. I referred them to [this dated benchmark](https://lambda.xyz/blog/maud-is-fast/) from 2016 and realized I should make a quick blog post with updated 2020 performance. Here are the results.
 
 ## Methodlogy
 
