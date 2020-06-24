@@ -58,7 +58,7 @@ Benchmark was done 5 times, values are times in nanoseconds to complete each ite
 | tera       | 8115  | 9227  | 9311  | 9346  | 8974  | 9227   | 13.45    |
 
 Producing this median graph
-![image](https://user-images.githubusercontent.com/60191958/85485729-4fb25d80-b597-11ea-9b46-967e8c4152e5.png)
+![image](https://user-images.githubusercontent.com/60191958/85488310-16302100-b59c-11ea-9e8e-b35ffdf35e80.png)
 
 ## Conclusion
 
