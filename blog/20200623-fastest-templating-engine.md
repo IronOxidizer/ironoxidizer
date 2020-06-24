@@ -7,7 +7,7 @@ Preface: I realize most of the following templating engines are templating libra
 
 I've recently been working on [lemmy-lite](https://github.com/IronOxidizer/lemmy-lite) and I've had a few people ask me why I chose to use [Maud](https://maud.lambda.xyz/) as the templating engine when there are more popular engines even within the Rust community. I referred them to [this dated benchmark](https://lambda.xyz/blog/maud-is-fast/) from 2016 and realized I should make a quick blog post with updated 2020 performance. Here are the results.
 
-## Methodlogy
+## Methodology
 
 Hardware
 ```
@@ -68,4 +68,4 @@ Maud is 23% faster than the next fastest (askama) and **26 times** faster than h
 
 I know some of you may be thinking that a few nanoseconds doesn't matter in a world where requests take hundreds of milliseconds anyways, but consider how many more simultaneous client connections could be handled on the same machine given how fast and efficient Maud is. This makes it ideal in situations where processing is limited but bandwidth is not which happens to be the case for systems like the Raspberry Pi 4 with gigabit networking.
 
-That being said, speed isn't everything, and Maud has it shortcomings as well (which I might cover in a future blog post), but for the time being, I'm planning on sticking with Maud for lemmy-lite and future projects where templating is needed. I've been enjoying the library and the confidence it gives me knowing there isn't a faster solution out there.
+That being said, speed isn't everything, and Maud has it shortcomings as well (which I might cover in a future blog post), but for the time being, I'm planning on sticking with Maud for lemmy-lite and future projects where templating is needed. I've been enjoying the library and the confidence it gives me knowing there isn't a faster solution out there that I could otherwise be using.
