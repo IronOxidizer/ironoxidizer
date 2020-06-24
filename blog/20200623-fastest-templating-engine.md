@@ -64,7 +64,7 @@ Producing this median graph
 
 ## Conclusion
 
-Maud is 23% faster than the next fastest (askama) and **26 times** faster than handlebars; the most popular templating engine in Rust according to crates.io downloads.
+Maud is 23% faster than the next fastest (horrorshow) and **26 times** faster than handlebars; the most popular templating engine in Rust according to crates.io downloads.
 
 I know some of you may be thinking that a few nanoseconds doesn't matter in a world where requests take hundreds of milliseconds anyways, but consider how many more simultaneous client connections could be handled on the same machine given how fast and efficient Maud is. This makes it ideal in situations where processing is limited but bandwidth is not which happens to be the case for systems like the Raspberry Pi 4 with gigabit networking.
 
