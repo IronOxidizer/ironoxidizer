@@ -60,7 +60,7 @@ Benchmark was done 5 times, values are times in nanoseconds to complete each ite
 
 Producing this median graph
 
-![image](https://user-images.githubusercontent.com/60191958/85488310-16302100-b59c-11ea-9e8e-b35ffdf35e80.png)
+![image](https://user-images.githubusercontent.com/60191958/85500819-366ada80-b5b2-11ea-9b91-5bbfb8d690e2.png)
 
 ## Conclusion
 
