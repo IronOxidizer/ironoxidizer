@@ -1,11 +1,13 @@
 [<- Blog](README.md)
 
-# Fastest Templating Engine
+# Fastest Template Engine
 2020-06-23
 
-Preface: I realize most of the following templating engines are templating libraries, but referring to them all as engines makes things less confusing for readers and they both fulfill similar roles anyway.
+Preface: I realize most of the following template engines are template libraries, but referring to them all as engines makes things less confusing for readers and they both fulfill similar roles anyway.
 
-I've recently been working on [lemmy-lite](https://github.com/IronOxidizer/lemmy-lite) and I've had a few people ask me why I chose to use [Maud](https://maud.lambda.xyz/) as the templating engine when there are more popular engines even within the Rust community. I referred them to [this dated benchmark](https://lambda.xyz/blog/maud-is-fast/) from 2016 and realized I should make a quick blog post with updated 2020 performance. Here are the results.
+Preface 2: I've recently discovered Sailfish and I'm considering testing it out. I'll make a blog post about it in the future.
+
+I've recently been working on [lemmy-lite](https://github.com/IronOxidizer/lemmy-lite) and I've had a few people ask me why I chose to use [Maud](https://maud.lambda.xyz/) as the template engine when there are more popular engines even within the Rust community. I referred them to [this dated benchmark](https://lambda.xyz/blog/maud-is-fast/) from 2016 and realized I should make a quick blog post with updated 2020 performance. Here are the results.
 
 ## Methodology
 
@@ -64,7 +66,7 @@ Producing this median graph
 
 ## Conclusion
 
-Maud is 23% faster than the next fastest (horrorshow) and **26 times** faster than handlebars; the most popular templating engine in Rust according to crates.io downloads.
+Maud is 23% faster than the next fastest (horrorshow) and **26 times** faster than handlebars; the most popular template engine in Rust according to crates.io downloads.
 
 I know some of you may be thinking that a few nanoseconds doesn't matter in a world where requests take hundreds of milliseconds anyways, but consider how many more simultaneous client connections could be handled on the same machine given how fast and efficient Maud is. This makes it ideal in situations where processing is limited but bandwidth is not which happens to be the case for systems like the Raspberry Pi 4 with gigabit networking.
 
